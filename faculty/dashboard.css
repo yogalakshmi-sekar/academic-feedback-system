@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #d3d3d3;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    background: #d3d3d3;
+    box-shadow: 10px 10px 20px #a3a3a3, -10px -10px 20px #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.card h3, .card h4 {
+    margin: 10px 0;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    background-color: #f2f2f2;
+    padding: 8px 12px;
+    margin: 6px 0;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 6px #bebebe, inset -2px -2px 6px #ffffff;
+}
+
+.bottom-actions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.bottom-actions a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px;
+    background: #d3d3d3;
+    box-shadow: 6px 6px 12px #a3a3a3, -6px -6px 12px #ffffff;
+    transition: all 0.3s ease-in-out;
+    color: #333;
+}
+
+.bottom-actions a:hover {
+    box-shadow: inset 4px 4px 6px #bebebe, inset -4px -4px 6px #ffffff;
+    transform: scale(1.03);
+}
+
+/* Distinct colored buttons */
+.btn-analytics {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-analytics:hover {
+    background-color: #449d48;
+}
+
+.btn-logout {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-logout:hover {
+    background-color: #d32f2f;
+}
